@@ -1,0 +1,58 @@
+:root {
+    --primari-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+}
+.page {
+    background-color: #FFFFFF;
+    color: var(--primari-text-color);
+}
+.list {
+    list-style: none;
+}
+/*цвет основного текста #212121*/
+/*вторичный цвет текста #757575*/
+/*белый цвет текста #FFFFFF*/
+/* акцент #2196F3 */
+/* цвет контактов футера rgba(255, 255, 255, 0.6) */
+/* цвет фона героя и футера #2F303A */
+/* вторичный цвет фона #F5F4FA */
+
+/* Site heder */
+.logo {
+    color: #000;
+}
+.logo-web {
+  color: var(--accent-color);  
+}
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.contacts .link {
+    color: var(--primari-text-color);
+}
+.contacts .link:hover,
+.contacts.link:focus {
+    color: var(--accent-color);
+}
+/* Hero */
+.hero {
+    background-color:#2F303A ;
+}
+.hero-title {
+    color: var(--white-color);
+}
+
+/* Section */
+.section-title {
+    color: var(--title-text-color);
+}
+/* Features */
+.feature .title {
+    color: var(--title-text-color);
+}
