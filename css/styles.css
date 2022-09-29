@@ -33,11 +33,14 @@
 .site-nav .link:focus {
     color: var(--accent-color);
 }
+.site-nav .link.current {
+color: var(--accent-color);
+}
 .contacts .link {
     color: var(--primari-text-color);
 }
 .contacts .link:hover,
-.contacts.link:focus {
+.contacts .link:focus {
     color: var(--accent-color);
 }
 /* Hero */
