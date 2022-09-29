@@ -56,3 +56,27 @@
 .feature .title {
     color: var(--title-text-color);
 }
+/* Examles */
+
+/* Team */
+.team .title {
+   color: var(--title-text-color); 
+}
+/* Button */
+.button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+/* Footer */
+.footer {
+    background-color:#2F303A ;
+}
+.footer-logo {
+    color:var(--white-color);
+}
+.adress-link {
+    color: var(--white-color);
+}
+.adress .link {
+    color:rgba(255, 255, 255, 0.6) ;
+}
