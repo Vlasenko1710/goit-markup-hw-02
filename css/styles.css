@@ -3,6 +3,7 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --white-color: #FFFFFF;
+    --secondary-color-fon: #F5F4FA;
 }
 .page {
     background-color: #FFFFFF;
@@ -84,6 +85,20 @@ color: var(--accent-color);
     color:rgba(255, 255, 255, 0.6) ;
 }
 /* Porfolio */
+
+/* Filter */
+.button.filter {
+    color: var(--title-text-color);
+    background-color: var(--secondary-color-fon) ;
+}
+.button.filter:hover,
+.button.filter:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+.portfolio .link {
+    color: var(--primari-text-color);
+}
 .portfolio .title {
     color:var(--title-text-color);
 }
